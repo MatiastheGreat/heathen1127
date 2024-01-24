@@ -1,0 +1,103 @@
+body {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, main, footer {
+    text-align: center;
+    width: 100%;
+    max-width: 600px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the container */
+}
+
+hr {
+    border-color: white; /* Set the color of the <hr> tag */
+    width: 100%; /* Make the <hr> tag span the entire width */
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+video {
+    width: 100%;
+    border: 2px solid #ffffff;
+}
+
+canvas {
+    width: 100%;
+    border: 2px solid #ffffff;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%; /* Make sure images don't exceed container width */
+}
+
+.titlelink {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.titlelink:hover {
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.contacttext {
+    text-decoration: none;
+    font-family: rubik;
+    color: #ffffff;
+    font-size: 5vw;
+}
+.contacttext:hover {
+text-decoration: none;
+color: #ffffff;
+}
+
+footer {
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+
+.logo {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: 84px;
+}

@@ -1,0 +1,110 @@
+body {
+  font-family: 'Neuropol X', sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: black;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .gif-background {
+background-image: url("background.png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100vw;
+position: fixed;
+top: 0;
+left: 0;
+z-index: -1; 
+}
+.highlight {
+  font-size: 24px;
+  background-color: yellow;
+  transition: background-color 0.3s ease;
+}
+
+.highlight:hover {
+  background-color: #ffe082; /* Change background color on hover */
+}
+  .sticky-header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, .8);
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      display: none;
+  }
+  h2 {
+    padding-top: 15%;
+}
+      .fontsize {
+          font-size: 12px;
+    }
+    .logo {
+        margin-right: 10px;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 74px;
+    }
+  .taskbar {
+    position: fixed;
+    color: #fff; 
+    }
+    header {
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+      padding: 10px; /* Adjust padding as needed */
+      text-align: center;
+      color: #fff;
+  }
+  .taskbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+      font-size: 16px;
+    padding: 1%;
+    }
+  footer {
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    }
+    .weblink {
+        color: white;
+        text-decoration: none;
+        }
+        
+        .weblink:hover {
+            color: white;
+            text-decoration: underline;
+            }
+      .p {
+        text-align: center;
+        font-size: 24px;
+        }
+    .home-button {
+     background-color: #000000;
+     color: #ffffff;
+     padding: 8px 8px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 4px;
+     transition: all 0.2s ease-in-out; 
+    }
+  .home-button:hover {
+     transform: scale(1.1); 
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  }
+  
