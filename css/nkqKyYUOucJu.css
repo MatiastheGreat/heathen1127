@@ -273,3 +273,12 @@ hr {
     color: white;
     width: 75%;
 }
+.h2link {
+    color: white;
+    text-decoration: none;
+}
+.h2link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
