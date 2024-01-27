@@ -1,3 +1,38 @@
+body {
+    font-family: "Neuropol X", sans-serif;
+    color: #fff;
+    background-color: #000;
+    background-size: cover;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin: 0;
+}
+.projects-container {
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 50px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.project h2 {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
 .fontsize {
     font-size: 12px;
 }
@@ -20,7 +55,6 @@
 .taskbar a {
     font-weight: 700;
     font-size: 16px;
-    padding: 1%;
     text-align: center;
 }
 
@@ -123,15 +157,9 @@ video {
     padding-top: 80px;
 }
 
-body {
-    font-family: "Neuropol X", sans-serif;
-    background-size: cover;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin: 0;
-}
-
 button, header {
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 body, header.scrolled, nav li a {
@@ -139,7 +167,7 @@ body, header.scrolled, nav li a {
 }
 
 header, header.new-header {
-    background-color: rgba(0, 0, 0, .8);
+    /*background-color: rgba(255, 255, 255, 0.5);*/
     text-align: center;
     color: #fff;
     position: fixed;
@@ -188,7 +216,6 @@ img {
 }
 
 .logo {
-    margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,7 +243,7 @@ img {
 }
 
 .weblink {
-    font-size: 20px;
+    font-size: 100%;
 }
 
 .container3, .container3 p {
@@ -241,4 +268,8 @@ img {
     max-width: 800px;
     height: auto;
     margin-top: 20px;
+}
+hr {
+    color: white;
+    width: 75%;
 }

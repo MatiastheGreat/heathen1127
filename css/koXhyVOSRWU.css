@@ -89,18 +89,24 @@ body {
     align-items: center;
     height: 80vh;
 }
-
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer hr {
-    width: 100%;
-}
-
+    text-align: center;
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .weblink {
+    color: #ffffff; 
+    text-decoration: none;
+  }
+  .weblink:hover {
+    color: #ffffff; 
+    text-decoration: underline;
+  }
+  
 .container3 {
     height: 10vh;
 }
