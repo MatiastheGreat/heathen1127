@@ -134,12 +134,6 @@ body{
     font-size: 10px;
     color: #8B8B8B;
 }
-.titlelink {
-    font-size: 25px;
-    color: white;
-    text-decoration: underline;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
 footer {
     color: #fff;
     padding: 16px;
@@ -158,14 +152,16 @@ footer {
 }
 header {
     margin-bottom: 20px;
+    text-align: center; /* Add this line to center the content */
 }
+
 .titlelink {
     font-size: 25px;
     color: white;
     text-decoration: none;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     display: block;
-    text-align: center; 
+    margin: 0 auto;
 }
 
 .titlelink:hover {
@@ -174,15 +170,13 @@ header {
     text-decoration: underline;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-
 .contacttext {
     text-decoration: none;
     font-family: rubik;
     color: #ffffff;
     font-size: 5vw;
 }
-
 .contacttext:hover {
-    text-decoration: none;
-    color: #ffffff;
+text-decoration: none;
+color: #ffffff;
 }
