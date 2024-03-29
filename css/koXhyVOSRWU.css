@@ -48,10 +48,12 @@ body {
 .container1 {
     display: flex;
     height: 30vh;
+    align-items: center; /* Center content vertically */
 }
-
+.spacebetween {
+    height: 50vh;
+}
 .aboutborder, .aboutcontainer {
-    align-items: center;
     margin: 0 auto;
 }
 
@@ -59,7 +61,7 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
-    height: 55vh;
+    height: auto; /* Auto height */
     padding: 0 20px;
     max-width: 800px;
 }
@@ -92,21 +94,22 @@ body {
 .footer {
     text-align: center;
     padding: 20px; /* Adjust the padding as needed */
-  }
-  
-  .footer p {
+}
+
+.footer p {
     margin: 0;
-  }
-  
-  .weblink {
+}
+
+.weblink {
     color: #ffffff; 
     text-decoration: none;
-  }
-  .weblink:hover {
+}
+
+.weblink:hover {
     color: #ffffff; 
     text-decoration: underline;
-  }
-  
+}
+
 .container3 {
     height: 10vh;
 }
@@ -124,12 +127,12 @@ body {
 .button, nav ul {
     background-color: #410909;
 }
-
 .button {
+    width: 20%; /* Set the width to 20% */
     padding: 12px 24px;
     display: inline-block;
     font-size: 16px;
-    margin: 16px 2px;
+    margin: 16px auto; /* Auto margins to center horizontally */
     cursor: pointer;
     border-radius: 8px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
